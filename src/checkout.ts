@@ -1,6 +1,7 @@
 import { demo } from "demo-pay";
 
 export async function quickCheckout(email: string, cardToken: string) {
+  /** @deprecated customers.create is deprecated and will be removed in a future release. */
   await demo.customers.create({ email });
 
   // Second affected call site for charges.create
