@@ -7,3 +7,4 @@ Breaking changes:
 
 Deprecations:
 - customeruiui.create is deprecated and will be removed in a future release.
+- new.payment is also deprecated 
