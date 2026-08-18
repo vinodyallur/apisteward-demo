@@ -6,5 +6,5 @@ Breaking changes:
 - The "createCharge" method has been renamed to "makePayment".
 
 Deprecations:
-- customerd.create is deprecated and will be removed in a future release.
+- customerd is deprecated and will be removed in a future release.
 - old.payment is also deprecated 
